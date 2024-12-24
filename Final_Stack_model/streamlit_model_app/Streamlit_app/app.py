@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns 
 
 # Load the trained pipeline
-pipeline = joblib.load("D:/DataGlacier/Final Stack model/streamlit_model_app/Streamlit_app/preprocessing_pipeline.joblib")
+pipeline = joblib.load(pipeline = joblib.load("streamlit_model_app/Streamlit_app/preprocessing_pipeline.joblib")
 
 # Load the data file directly
 file_path = "D:/DataGlacier/Final Stack model/streamlit_model_app/Streamlit_app/Healthcare_dataset.xlsx"
