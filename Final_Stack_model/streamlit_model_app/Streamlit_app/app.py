@@ -9,7 +9,7 @@ import seaborn as sns
 pipeline = joblib.load("Final_Stack_model/streamlit_model_app/Streamlit_app/preprocessing_pipeline.joblib")
 
 # Load the data file directly
-file_path = "D:/DataGlacier/Final Stack model/streamlit_model_app/Streamlit_app/Healthcare_dataset.xlsx"
+file_path = "Final_Stack_model/streamlit_model_app/Streamlit_app/Healthcare_dataset.xlsx"
 input_df = pd.read_excel(file_path)
 
 # List of selected features
